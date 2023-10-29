@@ -1,3 +1,11 @@
+/*
+*   BSD 3-Clause License, see file labled 'LICENSE' for the full License.
+*   Copyright (c) 2023, Peter Ferranti
+*   All rights reserved.
+*/
+
+#ifndef ___PDH___
+#define ___PDH___
 #ifdef _WIN32
 	#ifdef _WIN64
         #define _BUILD_PLATFORM_WINDOWS 1
@@ -21,4 +29,5 @@
     #define _BUILD_PLATFORM_LINUX 1
 #else
     #define _BUILD_PLATFORM_UNKNOWN 1
+#endif
 #endif
