@@ -8,9 +8,9 @@
 #define ___PDH___
 #ifdef _WIN32
 	#ifdef _WIN64
-        #define _BUILD_PLATFORM_WINDOWS 1
+	#define _BUILD_PLATFORM_WINDOWS 1
 	#else
-        #define _BUILD_PLATFORM_WINDOWS 2
+	#define _BUILD_PLATFORM_WINDOWS 2
 	#endif
 #elif defined(__APPLE__) || defined(__MACH__)
 	#include <TargetConditionals.h>
